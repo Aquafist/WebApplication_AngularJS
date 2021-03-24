@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31105.61
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication_AngularJS", "WebApplication2_AngularJS\WebApplication_AngularJS.csproj", "{36F92EFA-19F5-4292-9430-682B591112B1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{36F92EFA-19F5-4292-9430-682B591112B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36F92EFA-19F5-4292-9430-682B591112B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36F92EFA-19F5-4292-9430-682B591112B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36F92EFA-19F5-4292-9430-682B591112B1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F41D5EF4-1EBE-4FCA-A959-8CA998764044}
+	EndGlobalSection
+EndGlobal
