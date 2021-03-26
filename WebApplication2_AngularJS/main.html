@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>MyAPP</title>
+    <script src="Scripts/angular.js"></script>
+    <script src="Scripts/angular-route.js"></script>
+    <script src="Controllers/app.js"></script>
+    <script src="Controllers/Testcontroller.js"></script>
+
+</head>
+<body ng-app="myApp">
+
+    <p><a href="#/!">Main</a></p>
+    <a href="#!book">Book List</a>
+    <a href="#!shopping">Shopping List</a>
+
+    <div ng-view></div>
+    <script>
+        app.config(function ($routeProvider) {
+            $routeProvider
+                .when("/", {
+                    template : "<h1>Main</h1><p>Click on the below links to change this content</p>"
+                })
+                .when("/book", {
+                    templateUrl: "books.html",
+                    controller: "myBooks"
+                })
+                .when("/shopping", {
+                    templateUrl: "shopping.html",
+                    controller: "myShopping"
+                })
+        });
+    </script>
+
+</body>
+</html>

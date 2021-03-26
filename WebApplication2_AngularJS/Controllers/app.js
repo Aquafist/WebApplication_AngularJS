@@ -1,1 +1,1 @@
-﻿var app = angular.module('myBookList', []);
+﻿var app = angular.module("myApp", ["ngRoute"]);
